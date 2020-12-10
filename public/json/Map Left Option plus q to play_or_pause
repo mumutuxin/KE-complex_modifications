@@ -1,0 +1,29 @@
+{
+  "title": "Map Left Option plus q to media key for Speechify",
+  "rules": [
+    {
+      "description": "Map Left Option plus q to play_or_pause",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "play_or_pause"
+            }
+          ]
+        }        
+      ]
+    }
+  ]
+}
