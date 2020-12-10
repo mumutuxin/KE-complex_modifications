@@ -64,6 +64,9 @@
           "path": "json/shift.json"
         },
         {
+          "path": "json/speechify.json"
+        },        
+        {
           "path": "json/windows_like_word_bindings.json"
         },
         {
